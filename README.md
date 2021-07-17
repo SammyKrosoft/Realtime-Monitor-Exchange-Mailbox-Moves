@@ -51,6 +51,11 @@ And then you'll see an (almost) empty window where the script is running:
 
 <img src = https://user-images.githubusercontent.com/33433229/126025711-aade5d49-5465-449c-b90c-33050c1d6408.png width = 800>
 
+And as soon as you move other mailboxes, the realtime monitoring window will update itself like magic !
+
+<img src = https://user-images.githubusercontent.com/33433229/126025982-71c2cba3-1cba-4763-90a6-58082b54e378.png width = 800>
+
+
 # Going further
 
 You can use the method used in that script to build realtime monitors for many things:
