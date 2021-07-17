@@ -23,8 +23,12 @@ Get-MoveRequestStatistics
 
 > Note: I also put a one-liner in that repo, it's easier and nicer to paste inside an EMS.
 
+See the magic ! You can see the % progress moving in realtime until it's completed !
+
 <img src = https://user-images.githubusercontent.com/33433229/126025578-40f80fa5-5f98-42a8-8d06-85167d7b0879.png width = 600>
 
 > Note 2: if it doesn't launch rightaway, hit "Enter" to run it (depends if you copy/paste with a carriage return)
 
 4- the script will run indefinitely until you close the Exchange Management Shell or until you hit CTRL + C
+
+When moves are complete, you'll still see the completed Mailbox Moves, until you remove the completed moves using ```Remove-MoveRequest``` (to remove all completed move requests, just type ```Get-MoveRequest | Remove-MoveRequest```
