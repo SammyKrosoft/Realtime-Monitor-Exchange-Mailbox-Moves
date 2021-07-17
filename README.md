@@ -53,6 +53,12 @@ And then you'll see an (almost) empty window where the script is running:
 
 And as soon as you move other mailboxes, the realtime monitoring window will update itself like magic !
 
+An example after running the following from another EMS window, from any other server in the Exchange organization:
+
+```powershell
+Get-Mailboxdatabase DAG1-DB2 | Get-Mailbox | New-MoveRequest -TargetDatabase DAG1-DB1
+```
+
 <img src = https://user-images.githubusercontent.com/33433229/126025982-71c2cba3-1cba-4763-90a6-58082b54e378.png width = 800>
 
 
