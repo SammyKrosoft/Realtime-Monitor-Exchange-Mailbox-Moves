@@ -51,7 +51,7 @@ And then you'll see an (almost) empty window where the script is running:
 
 <img src = https://user-images.githubusercontent.com/33433229/126025711-aade5d49-5465-449c-b90c-33050c1d6408.png width = 800>
 
-And as soon as you move other mailboxes, the realtime monitoring window will update itself like magic !
+If you leave the window open, as soon as you move other mailboxes, the realtime monitoring window will update itself like magic !
 
 An example after running the following from another EMS window, from any other server in the Exchange organization:
 
