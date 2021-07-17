@@ -16,7 +16,7 @@ Get-MoveRequestStatistics
 
 <img src=https://user-images.githubusercontent.com/33433229/126025467-440947ae-c2a3-4245-90e0-4f00fe75fe8a.png width = 300>
 
-<img src = https://user-images.githubusercontent.com/33433229/126025476-6d9627f6-a5b0-4b5b-bb10-484ccca4d395.png width = 600>
+<img src = https://user-images.githubusercontent.com/33433229/126025476-6d9627f6-a5b0-4b5b-bb10-484ccca4d395.png width = 800>
 
 
 ## 2- Copy and paste the script in that EMS window
@@ -29,7 +29,7 @@ cls;While ($true) {$CurrentDate=get-date;$Infos=Get-MoveRequest | Get-MoveReques
 
 See the magic ! You can see the % progress moving in realtime until it's completed !
 
-<img src = https://user-images.githubusercontent.com/33433229/126025578-40f80fa5-5f98-42a8-8d06-85167d7b0879.png width = 600>
+<img src = https://user-images.githubusercontent.com/33433229/126025578-40f80fa5-5f98-42a8-8d06-85167d7b0879.png width = 800>
 
 > Note 2: if it doesn't launch rightaway, hit "Enter" to run it (depends if you copy/paste with a carriage return)
 
@@ -39,7 +39,7 @@ When moves are complete, you'll still see the completed Mailbox Moves, until you
 
 Example of what you see when the moves are complete:
 
-<img src = https://user-images.githubusercontent.com/33433229/126025673-17258675-12da-4e0a-847c-bc981e57fe17.png width = 600>
+<img src = https://user-images.githubusercontent.com/33433229/126025673-17258675-12da-4e0a-847c-bc981e57fe17.png width = 800>
 
 And on another window I type
 
@@ -49,7 +49,7 @@ Get-Moverequest | Remove-MoveRequest
 
 And then you'll see an (almost) empty window where the script is running:
 
-<img src = https://user-images.githubusercontent.com/33433229/126025711-aade5d49-5465-449c-b90c-33050c1d6408.png width = 600>
+<img src = https://user-images.githubusercontent.com/33433229/126025711-aade5d49-5465-449c-b90c-33050c1d6408.png width = 800>
 
 # Going further
 
