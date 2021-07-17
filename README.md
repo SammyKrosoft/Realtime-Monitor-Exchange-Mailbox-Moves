@@ -35,7 +35,7 @@ When moves are complete, you'll still see the completed Mailbox Moves, until you
 
 Example of what you see when the moves are complete:
 
-<img src = https://user-images.githubusercontent.com/33433229/126025673-17258675-12da-4e0a-847c-bc981e57fe17.png width = 500>
+<img src = https://user-images.githubusercontent.com/33433229/126025673-17258675-12da-4e0a-847c-bc981e57fe17.png width = 600>
 
 And on another window I type
 
@@ -45,7 +45,7 @@ Get-Moverequest | Remove-MoveRequest
 
 And then you'll see an (almost) empty window where the script is running:
 
-<img src = https://user-images.githubusercontent.com/33433229/126025711-aade5d49-5465-449c-b90c-33050c1d6408.png width = 500>
+<img src = https://user-images.githubusercontent.com/33433229/126025711-aade5d49-5465-449c-b90c-33050c1d6408.png width = 600>
 
 # Going further
 
