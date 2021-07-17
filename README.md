@@ -32,3 +32,29 @@ See the magic ! You can see the % progress moving in realtime until it's complet
 4- the script will run indefinitely until you close the Exchange Management Shell or until you hit CTRL + C
 
 When moves are complete, you'll still see the completed Mailbox Moves, until you remove the completed moves using ```Remove-MoveRequest``` (to remove all completed move requests, just type ```Get-MoveRequest | Remove-MoveRequest```
+
+Example of what you see when the moves are complete:
+
+<img src = https://user-images.githubusercontent.com/33433229/126025673-17258675-12da-4e0a-847c-bc981e57fe17.png width = 500>
+
+And on another window I type
+
+```powershell
+Get-Moverequest | Remove-MoveRequest
+```
+
+And then you'll see an (almost) empty window where the script is running:
+
+<img src = https://user-images.githubusercontent.com/33433229/126025711-aade5d49-5465-449c-b90c-33050c1d6408.png width = 500>
+
+# Going further
+
+You can use the method used in that script to build realtime monitors for many things:
+
+- performance counter(s)
+- getting stock quotes
+- etc...
+
+I'll document the principle later if I have time.
+
+
