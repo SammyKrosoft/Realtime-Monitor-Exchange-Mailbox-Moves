@@ -23,6 +23,10 @@ Get-MoveRequestStatistics
 
 > Note: I also put a one-liner in that repo, it's easier and nicer to paste inside an EMS.
 
+```powershell
+cls;While ($true) {$CurrentDate=get-date;$Infos=Get-MoveRequest | Get-MoveRequestStatistics | select Identity,*percent*,status,targetdatabase;cls;$CurrentDate;$infos|ft;sleep 2}
+```
+
 See the magic ! You can see the % progress moving in realtime until it's completed !
 
 <img src = https://user-images.githubusercontent.com/33433229/126025578-40f80fa5-5f98-42a8-8d06-85167d7b0879.png width = 600>
